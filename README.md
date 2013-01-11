@@ -5,13 +5,13 @@ Gearman client cake component
 
 Put this in you cake config.php file.
 
-/**
+/*
  * List of gearman servers, comma seperated ex : 127.0.0.1:4730,127.0.0.1:4235
  */
 
 Configure::write('gearman.servers', '127.0.0.1:4730');
 
-/**
+/*
  * List of valid API keys
  */
 
