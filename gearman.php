@@ -64,7 +64,7 @@ class GearmanComponent extends Object {
 	 * @return object $gmc - a gearman client object
 	 */
 	private function __registerServers() {
-		
+		$gmc = new GearmanClient();
 		$servers = explode(',', $this->servers);
 		
 		foreach ($servers as $i => $server) {
