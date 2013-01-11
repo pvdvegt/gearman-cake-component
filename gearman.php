@@ -1,7 +1,7 @@
 <?
 class GearmanComponent extends Object {
 
-  private $servers;
+  	private $servers;
 	private $gmc;
 	
 	
